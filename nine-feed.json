@@ -1,0 +1,115 @@
+{
+ "version": 1,
+ "updated": "2026-11-02T14:41:16Z",
+ "events": [
+  {
+   "title": "AI for Sales (Q4 2026)",
+   "kind": "pro",
+   "start": "2026-11-03T16:00:00.000Z",
+   "end": "2026-11-03T17:00:00.000Z",
+   "cover": "https://assets-v2.circle.so/r7qiasr5fda1b79dbzcnoiukrjx1",
+   "circle": "https://academy.go9x.com/c/9x-live-d45ed9/ai-for-sales-q4-2026"
+  },
+  {
+   "title": "ChatGPT Work for Beginners",
+   "kind": "live",
+   "start": "2026-11-05T16:00:00.000Z",
+   "end": "2026-11-05T17:00:00.000Z",
+   "cover": "https://assets-v2.circle.so/z0jeab9qyvgfzed2iq8zqhoq5dc7",
+   "circle": "https://academy.go9x.com/c/9x-live-d45ed9/chatgpt-work-for-beginners-1cf652",
+   "luma": "https://luma.com/9x-w5ql"
+  },
+  {
+   "title": "Building an AI CRM Manager",
+   "kind": "pro",
+   "start": "2026-11-10T16:00:00.000Z",
+   "end": "2026-11-10T17:00:00.000Z",
+   "cover": "https://assets-v2.circle.so/1rtcxam65o1p6iyhf1afjfrrmmum",
+   "circle": "https://academy.go9x.com/c/9x-live-d45ed9/building-an-ai-crm-manager"
+  },
+  {
+   "title": "Langdock for Beginners",
+   "kind": "live",
+   "start": "2026-11-11T16:00:00.000Z",
+   "end": "2026-11-11T17:00:00.000Z",
+   "cover": "https://assets-v2.circle.so/azjahv51wi3rr9fu49b0lvqdu4lz",
+   "circle": "https://academy.go9x.com/c/9x-live-d45ed9/langdock-for-beginners",
+   "luma": "https://luma.com/9x-l39s"
+  },
+  {
+   "title": "AI for Marketing (Q4 2026)",
+   "kind": "pro",
+   "start": "2026-11-18T16:00:00.000Z",
+   "end": "2026-11-18T17:00:00.000Z",
+   "cover": "https://assets-v2.circle.so/xnpyww0aap86frgwvcmx8k3mkx7s",
+   "circle": "https://academy.go9x.com/c/9x-live-d45ed9/ai-for-marketing-q4-2026"
+  },
+  {
+   "title": "Grokbot for Beginners",
+   "kind": "live",
+   "start": "2026-11-19T16:00:00.000Z",
+   "end": "2026-11-19T17:00:00.000Z",
+   "cover": "https://assets-v2.circle.so/fvxsv6whv9tmkk6cj65oe27amp3i",
+   "circle": "https://academy.go9x.com/c/9x-live-d45ed9/grokbot-for-beginners",
+   "luma": "https://luma.com/9x-jmbc"
+  },
+  {
+   "title": "Building an AI Creative Team",
+   "kind": "pro",
+   "start": "2026-11-24T16:00:00.000Z",
+   "end": "2026-11-24T17:00:00.000Z",
+   "cover": "https://assets-v2.circle.so/1zm2kr7akvihgcllo2q1i0mksdlc",
+   "circle": "https://academy.go9x.com/c/9x-live-d45ed9/building-an-ai-creative-team"
+  },
+  {
+   "title": "Build a Claude Slides Design System",
+   "kind": "live",
+   "start": "2026-11-26T16:00:00.000Z",
+   "end": "2026-11-26T17:00:00.000Z",
+   "cover": "https://assets-v2.circle.so/76oo3dexs76rkhny9urd03trlnps",
+   "circle": "https://academy.go9x.com/c/9x-live-d45ed9/build-a-claude-slides-design-system",
+   "luma": "https://luma.com/9x-rep4"
+  }
+ ],
+ "latest": [
+  {
+   "kind": "Video",
+   "meta": "22:49",
+   "title": "8 Insane ChatGPT Browser Use Cases (automate anything)",
+   "href": "https://www.youtube.com/watch?v=i0kRyzHTxXU",
+   "img": "https://i.ytimg.com/vi/i0kRyzHTxXU/mqdefault.jpg"
+  },
+  {
+   "kind": "Article",
+   "title": "Running AI Enablement Internally? Here are Three Things to Consider",
+   "href": "/blog/running-ai-enablement-internally",
+   "img": "https://framerusercontent.com/images/htkBdN1wf6pwcWf4dI9OcQgZUg.webp?width=640"
+  },
+  {
+   "kind": "Video",
+   "meta": "29:46",
+   "title": "How to Build ChatGPT Skills Better Than 99% of People (Full Guide)",
+   "href": "https://www.youtube.com/watch?v=JxQsEklz9eA",
+   "img": "https://i.ytimg.com/vi/JxQsEklz9eA/mqdefault.jpg"
+  },
+  {
+   "kind": "Article",
+   "title": "What is Claude Slides, and How to Use Them (Guide for Beginners)",
+   "href": "/blog/how-to-use-claude-slides",
+   "img": "https://framerusercontent.com/images/2BU6eFPS5AefRTB0Ev6B5bl9bY.jpg?width=640"
+  },
+  {
+   "kind": "Video",
+   "meta": "13:41",
+   "title": "How to Use Claude Docs, Slides & Design Better than 99% of People (Full Guide)",
+   "href": "https://www.youtube.com/watch?v=BZd6NZZUpfg",
+   "img": "https://i.ytimg.com/vi/BZd6NZZUpfg/mqdefault.jpg"
+  },
+  {
+   "kind": "Article",
+   "title": "What are Claude Docs, and How to Use Them Like a Pro",
+   "href": "/blog/how-to-use-claude-docs",
+   "img": "https://framerusercontent.com/images/qKcCwjrHCKLWmwYfOb90ctdU7zc.jpg?width=640"
+  }
+ ]
+}
