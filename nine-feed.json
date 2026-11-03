@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-02T14:41:16Z",
+ "updated": "2026-11-03T14:06:28Z",
  "events": [
   {
    "title": "AI for Sales (Q4 2026)",
@@ -74,10 +74,10 @@
  "latest": [
   {
    "kind": "Video",
-   "meta": "22:49",
-   "title": "8 Insane ChatGPT Browser Use Cases (automate anything)",
-   "href": "https://www.youtube.com/watch?v=i0kRyzHTxXU",
-   "img": "https://i.ytimg.com/vi/i0kRyzHTxXU/mqdefault.jpg"
+   "meta": "31:10",
+   "title": "This AI Workflow Generates 100s of Meta Ads on Autopilot (Full Guide)",
+   "href": "https://www.youtube.com/watch?v=uyNlOxehvVk",
+   "img": "https://i.ytimg.com/vi/uyNlOxehvVk/mqdefault.jpg"
   },
   {
    "kind": "Article",
@@ -87,29 +87,29 @@
   },
   {
    "kind": "Video",
-   "meta": "29:46",
-   "title": "How to Build ChatGPT Skills Better Than 99% of People (Full Guide)",
-   "href": "https://www.youtube.com/watch?v=JxQsEklz9eA",
-   "img": "https://i.ytimg.com/vi/JxQsEklz9eA/mqdefault.jpg"
+   "meta": "18:56",
+   "title": "These 8 AI Skills Will Make You Dangerously Good at Your Job in 2027",
+   "href": "https://www.youtube.com/watch?v=eCn8pZFDMso",
+   "img": "https://i.ytimg.com/vi/eCn8pZFDMso/mqdefault.jpg"
   },
   {
    "kind": "Article",
-   "title": "What is Claude Slides, and How to Use Them (Guide for Beginners)",
-   "href": "/blog/how-to-use-claude-slides",
-   "img": "https://framerusercontent.com/images/2BU6eFPS5AefRTB0Ev6B5bl9bY.jpg?width=640"
+   "title": "We Needed a CRM Manager. So We Hired Claude.",
+   "href": "/blog/claude-crm-manager",
+   "img": "https://framerusercontent.com/images/GLiiZPLXi88jDwcVyDuaDFXXNQ.webp?width=640"
   },
   {
    "kind": "Video",
-   "meta": "13:41",
-   "title": "How to Use Claude Docs, Slides & Design Better than 99% of People (Full Guide)",
-   "href": "https://www.youtube.com/watch?v=BZd6NZZUpfg",
-   "img": "https://i.ytimg.com/vi/BZd6NZZUpfg/mqdefault.jpg"
+   "meta": "22:49",
+   "title": "8 Insane ChatGPT Browser Use Cases (automate anything)",
+   "href": "https://www.youtube.com/watch?v=i0kRyzHTxXU",
+   "img": "https://i.ytimg.com/vi/i0kRyzHTxXU/mqdefault.jpg"
   },
   {
    "kind": "Article",
-   "title": "What are Claude Docs, and How to Use Them Like a Pro",
-   "href": "/blog/how-to-use-claude-docs",
-   "img": "https://framerusercontent.com/images/qKcCwjrHCKLWmwYfOb90ctdU7zc.jpg?width=640"
+   "title": "Start With the Goal: How to Drive ROI from AI Training",
+   "href": "/blog/start-with-the-goal-how-to-drive-roi-from-ai-training",
+   "img": "https://framerusercontent.com/images/Pn9sTsyrbnz1Hl7ewPuKKWJvAa4.webp?width=640"
   }
  ]
 }
