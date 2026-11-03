@@ -1,7 +1,8 @@
 """Builds nine-feed.json: the public data the go9x.com navbar and 9x Pro hero read.
 
-events  = sessions in the public 9x Live Circle space only (never client workshop spaces),
-          tier from the Circle topic, Luma registration link matched by start time.
+events  = sessions in the public 9x Live Circle space only (never client workshop spaces), from the 1st of
+          this month (Berlin time) onwards: the 9x Pro hero shows the whole month, past sessions included.
+          Tier from the Circle topic, Luma registration link matched by start time.
 latest  = newest videos and articles for the navbar's Latest carousel.
 
 Usage: python3 build_feed.py --circle circle-events.json [--latest latest.json] [--out nine-feed.json]
@@ -9,6 +10,7 @@ circle-events.json = a Circle list_events response (records[]).
 """
 import argparse, json, urllib.request
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
 LIVE_SPACE = "9x-live-d45ed9"              # the only Circle space allowed in the public feed
 TOPIC_PRO, TOPIC_FREE = 556339, 556340     # "Pro workshops" / "Free workshops"
@@ -24,13 +26,14 @@ def luma_links():
 
 
 def build_events(records, luma):
-    now = datetime.now(timezone.utc)
+    # keep everything from the 1st of this month, Berlin time
+    month_start = datetime.now(ZoneInfo("Europe/Berlin")).replace(day=1, hour=0, minute=0, second=0, microsecond=0)
     out = []
     for e in sorted(records, key=lambda x: x["starts_at"]):
         if (e.get("space") or {}).get("slug") != LIVE_SPACE:
             continue
-        end = datetime.fromisoformat(e["ends_at"].replace("Z", "+00:00"))
-        if end < now:
+        start = datetime.fromisoformat(e["starts_at"].replace("Z", "+00:00"))
+        if start < month_start:
             continue
         kind = "pro" if TOPIC_PRO in (e.get("topics") or []) else "live"
         ev = {"title": e["name"].strip(), "kind": kind, "start": e["starts_at"], "end": e["ends_at"],
@@ -54,7 +57,8 @@ def main():
         "events": build_events(records, luma_links()),
         "latest": json.load(open(a.latest)),
     }
-    assert feed["events"], "no upcoming events: refusing to publish an empty feed"
+    now = datetime.now(timezone.utc)
+    assert any(datetime.fromisoformat(e["end"].replace("Z", "+00:00")) > now for e in feed["events"]), "no upcoming events: refusing to publish"
     assert len(feed["latest"]) >= 3, "latest needs at least 3 items"
     json.dump(feed, open(a.out, "w"), indent=1, ensure_ascii=False)
     print(f"{a.out}: {len(feed['events'])} events, {len(feed['latest'])} latest")

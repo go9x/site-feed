@@ -39,7 +39,7 @@ A routine (agent) rebuilds the file and commits it to `main`:
 }
 ```
 
-### `events`: upcoming public sessions, this month and next
+### `events`: public sessions from the 1st of this month onwards (past ones included)
 | Field | Rule |
 |---|---|
 | `title` | Session name as on Circle. |
@@ -50,7 +50,7 @@ A routine (agent) rebuilds the file and commits it to `main`:
 | `luma` | Free sessions only: the Luma registration page (public calendar `luma.com/9x-live`). The navbar links here. |
 
 **Only sessions from the public 9x Live space** (`academy.go9x.com/c/9x-live-d45ed9`). Never add client workshop spaces: this file is public, and client names must not appear in it.
-Past sessions can stay in the file. The site drops them by itself, but keep the list short (about the next 8).
+Keep every session from the 1st of this month (Berlin time), past ones included: the 9x Pro hero shows the whole month, past sessions included (shown with their date only). The navbar only uses the upcoming ones. Sessions from earlier months drop out.
 
 ### `latest`: newest content, newest first
 6 items, alternating videos and articles when possible.
@@ -63,7 +63,7 @@ Past sessions can stay in the file. The site drops them by itself, but keep the 
 | `img` | YouTube `mqdefault.jpg` thumbnail, or the article's cover. |
 
 ## Checks before committing
-- `version` is `1`, `events` has at least one upcoming session, `latest` has at least 3 items.
+- `version` is `1`, `events` has at least one session that hasn't ended, `latest` has at least 3 items.
 - Every link opens.
 - The file is valid JSON. The site ignores an invalid file and falls back to the last good copy, then to the backups.
 
