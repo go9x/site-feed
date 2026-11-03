@@ -6,7 +6,9 @@ Public data feed for go9x.com. The website's mega navbar (Resources → Next 9x 
 https://go9x.github.io/site-feed/nine-feed.json
 ```
 
-Updating this file updates the website within a minute or two. **No Framer publish is needed.**
+Updating this file updates the website within about 10 minutes (GitHub Pages caches it up to 10 min). **No Framer publish is needed.**
+
+**This is the only feed file.** The website reads nothing else. The Framer code files `NineFeed.tsx` (branch home-revamp) and `NineFeed_1.tsx` (branch improved-heros) are the reader, the same code under two names; they are never edited by the routine.
 Visitors fetch it once per visit. If it can't be loaded, the site shows evergreen backups (no dates).
 
 ## Who updates it
