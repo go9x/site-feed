@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-03T14:06:28Z",
+ "updated": "2026-11-03T14:15:08Z",
  "events": [
   {
    "title": "AI for Sales (Q4 2026)",
@@ -81,9 +81,9 @@
   },
   {
    "kind": "Article",
-   "title": "Running AI Enablement Internally? Here are Three Things to Consider",
-   "href": "/blog/running-ai-enablement-internally",
-   "img": "https://framerusercontent.com/images/htkBdN1wf6pwcWf4dI9OcQgZUg.webp?width=640"
+   "title": "How to Build a Self-Improving AI Ad Creative System",
+   "href": "/blog/ai-ad-creative-system",
+   "img": "https://framerusercontent.com/images/qkgidSanQX93K9br5MViiNIpEk.jpg?width=640"
   },
   {
    "kind": "Video",
@@ -94,9 +94,9 @@
   },
   {
    "kind": "Article",
-   "title": "We Needed a CRM Manager. So We Hired Claude.",
-   "href": "/blog/claude-crm-manager",
-   "img": "https://framerusercontent.com/images/GLiiZPLXi88jDwcVyDuaDFXXNQ.webp?width=640"
+   "title": "How to Use the Meta Ad Library for Competitor Research",
+   "href": "/blog/meta-ad-library",
+   "img": "https://framerusercontent.com/images/zaXnzNiUjQNbcoUceMExczrtAU.jpg?width=640"
   },
   {
    "kind": "Video",
@@ -107,9 +107,9 @@
   },
   {
    "kind": "Article",
-   "title": "Start With the Goal: How to Drive ROI from AI Training",
-   "href": "/blog/start-with-the-goal-how-to-drive-roi-from-ai-training",
-   "img": "https://framerusercontent.com/images/Pn9sTsyrbnz1Hl7ewPuKKWJvAa4.webp?width=640"
+   "title": "Facebook Ad Copy: 40 Headlines From 4 Frameworks",
+   "href": "/blog/facebook-ad-copy",
+   "img": "https://framerusercontent.com/images/Qctt4l8kDfpAy7bmniuLpGOg1Hg.jpg?width=640"
   }
  ]
 }
