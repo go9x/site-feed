@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-03T14:15:08Z",
+ "updated": "2026-11-05T17:18:28Z",
  "events": [
   {
    "title": "AI for Sales (Q4 2026)",
@@ -16,8 +16,7 @@
    "start": "2026-11-05T16:00:00.000Z",
    "end": "2026-11-05T17:00:00.000Z",
    "cover": "https://assets-v2.circle.so/z0jeab9qyvgfzed2iq8zqhoq5dc7",
-   "circle": "https://academy.go9x.com/c/9x-live-d45ed9/chatgpt-work-for-beginners-1cf652",
-   "luma": "https://luma.com/9x-w5ql"
+   "circle": "https://academy.go9x.com/c/9x-live-d45ed9/chatgpt-work-for-beginners-1cf652"
   },
   {
    "title": "Building an AI CRM Manager",
